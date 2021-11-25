@@ -1,3 +1,24 @@
+.topNubex {
+  width: 50px;
+  height: 50px;
+  background-color: #a5a5a5;
+  background-image: url(https://img.icons8.com/ios-filled/90/ffffff/chevron-up.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: fixed;
+	right: 45px;
+	bottom: 45px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity .5 ease;
+}
+
+.topNubex:hover{
+opacity: .5;
+}
+
 .page {
  background-color: #323131;
 }
@@ -63,6 +84,11 @@
   text-decoration: none;
   color: white;
   margin-right: 20px;
+  transition: opacity 0.5 ease;
+}
+
+.menu__link:hover{
+  opacity: .5;
 }
 
 .menu__link:last-of-type {
